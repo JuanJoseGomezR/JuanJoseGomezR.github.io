@@ -55,7 +55,6 @@ nav img {
 }
 .text-box {
     width: 90%;
-    font-size: 70px;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -68,7 +67,7 @@ nav img {
 }
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 30px;
     color: #fff;
 }
 .hero-btn {
