@@ -55,6 +55,7 @@ nav img {
 }
 .text-box {
     width: 90%;
+    font-size: 50px;
     color: #fff;
     position: absolute;
     top: 50%;
