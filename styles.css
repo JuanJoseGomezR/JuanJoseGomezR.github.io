@@ -204,6 +204,37 @@ h3 {
     width: 100%;
     display: block;
 }
+
+#about {
+    margin: 20px;
+}
+.aboutme {
+    border-radius: 25px;
+    border-width: 80px;
+    padding-top: 20px;
+    justify-content: flex-end;
+    display: flex;
+    background-size: contain;
+    background-color: #fff3f3;
+}
+.aboutme p {
+    padding-top: 15px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.aboutme img {
+    width: 50%;
+    margin: 20px;
+    border-radius: 300px;
+}
+
+.aboutme:hover {
+    box-shadow: 0px 0px 20px gray;
+    cursor: pointer;
+}
+
 .layer {
     background: transparent;
     height: 100%;
@@ -302,9 +333,8 @@ h3 {
     font-weight: 600;
 }
 
-.icons .fa{
-    color: #CC0000;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px;
+.icons {
+    color: rgb(226, 0, 0, 0.7);
+    margin: 15px;
+    font-size: 80px;
 }
