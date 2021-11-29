@@ -231,12 +231,16 @@ h3 {
 }
 
 @media(max-width: 700px) {
+    .aboutme {
+        display: inline-block;
+        align-self: flex-end;
+    }
     .aboutme p {
         font-size: 15px;
     }
     .aboutme img {
-        width: 25%;
-        height: 25%;
+        width: 45%;
+        height: 45%;
     }
 }
 
