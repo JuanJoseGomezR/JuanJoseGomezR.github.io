@@ -200,6 +200,28 @@ h3 {
     display: block;
 }
 
+#linku:link {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#linku:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#linku::after {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#snack {
+    padding-top: 120px;
+}
+
 #about {
     margin: 20px;
 }
@@ -213,8 +235,9 @@ h3 {
     background-color: #fff3f3;
 }
 .aboutme p {
-    padding-top: 15px;
-    font-size: 30px;
+    padding-top: 35px;
+    padding-left: 40px;
+    font-size: 27px;
     line-height: 40px;
     text-align: left;
 }
@@ -272,7 +295,7 @@ h3 {
 }
 
 .layer:hover h3 {
-    bottom: 49%;
+    bottom: 70%;
     opacity: 1;
 }
 
