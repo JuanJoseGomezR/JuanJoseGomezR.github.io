@@ -126,8 +126,7 @@ nav .fas {
 /*----- course -----*/
 
 .projects {
-    width: 80%;
-    margin: auto;
+    width: 100%;
     text-align: center;
     padding-top: 100px;
 }
@@ -226,7 +225,7 @@ h3 {
     margin: 20px;
 }
 .aboutme {
-    border-radius: 25px;
+    border-radius: 0px;
     border-width: 80px;
     padding-top: 20px;
     justify-content: flex-end;
@@ -235,17 +234,21 @@ h3 {
     background-color: #fff3f3;
 }
 .aboutme p {
-    padding-top: 35px;
+    padding-top: 75px;
     padding-left: 45px;
     font-size: 25px;
     line-height: 40px;
-    text-align: left;
+    text-align: justify;
+    margin-right: 15px;
 }
 
 .aboutme img {
-    width: 50%;
-    margin: 20px;
-    border-radius: 300px;
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    margin-right: 17px;
+    border-radius: 0px;
+    border-color: #fff;
 }
 
 .aboutme:hover {
@@ -259,11 +262,11 @@ h3 {
         align-self: flex-end;
     }
     .aboutme p {
-        font-size: 15px;
+        font-size: 25px;
     }
     .aboutme img {
-        width: 45%;
-        height: 45%;
+        width: 25%;
+        height: 25%;
     }
 }
 
@@ -332,11 +335,11 @@ h3 {
 
 .cta {
     margin: 100px auto;
-    width: 80%;
+    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Images/eren.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 0px;
     text-align: center;
     padding: 100px 0;
 }
@@ -366,7 +369,12 @@ h3 {
 }
 
 .icons {
+    margin-top: 15px;
     color: rgb(226, 0, 0, 0.7);
     margin: 15px;
     font-size: 80px;
+}
+
+#xd {
+    border-radius: 95px;
 }
