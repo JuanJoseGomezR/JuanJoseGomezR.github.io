@@ -62,7 +62,26 @@ nav img {
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+
 }
+.profile_img {
+    width: 40%;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    position: absolute;
+    align-items: center;
+    margin-left: 45.8%;
+    margin-top: 24%;
+}
+.profile_img img {
+    padding: 0px;
+    max-width: 200px;
+    max-height: 150px;
+    border-radius: 80%;
+    border-style: dotted;
+    border-color: white;
+}
+
 .text-box h1 {
     font-size: 67px;
 }
